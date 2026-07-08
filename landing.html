@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PermisLocal — Trouvez vos prochains chantiers dans le Pas-de-Calais</title>
+<meta name="description" content="Chaque semaine, recevez les nouveaux permis de construire et déclarations de travaux du Pas-de-Calais, filtrés pour votre métier. Piscines, toitures, extensions : soyez le premier artisan sur le chantier.">
+<style>
+  :root{
+    --navy:#0f2437; --navy2:#16334e; --amber:#f5a623; --amber2:#d98f00;
+    --bg:#ffffff; --txt:#1c2b3a; --muted:#5d7183; --line:#e3e9ee; --soft:#f4f7fa;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--txt);background:var(--bg);line-height:1.6}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+
+  nav{background:var(--navy);padding:14px 0}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between}
+  .logo{font-size:21px;font-weight:800;color:#fff;letter-spacing:-.5px}
+  .logo span{color:var(--amber)}
+  nav a.cta{background:var(--amber);color:var(--navy);font-weight:700;font-size:14px;padding:9px 18px;border-radius:8px;text-decoration:none}
+
+  .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;padding:72px 0 84px;text-align:center}
+  .hero .badge{display:inline-block;background:rgba(245,166,35,.15);border:1px solid rgba(245,166,35,.5);color:var(--amber);font-size:12.5px;font-weight:700;padding:5px 14px;border-radius:20px;margin-bottom:22px}
+  .hero h1{font-size:clamp(28px,4.6vw,46px);font-weight:800;line-height:1.15;letter-spacing:-1px;max-width:820px;margin:0 auto 18px}
+  .hero h1 em{color:var(--amber);font-style:normal}
+  .hero p.sub{font-size:clamp(15px,2vw,18.5px);opacity:.85;max-width:640px;margin:0 auto 34px}
+  .btn{display:inline-block;background:var(--amber);color:var(--navy);font-weight:800;font-size:16.5px;padding:15px 34px;border-radius:10px;text-decoration:none;border:none;cursor:pointer;transition:.15s}
+  .btn:hover{background:var(--amber2)}
+  .hero .under{font-size:12.5px;opacity:.6;margin-top:12px}
+  .hero .demo-link{display:inline-block;margin-top:26px;color:rgba(255,255,255,.75);font-size:13.5px}
+
+  .strip{background:var(--soft);border-bottom:1px solid var(--line);padding:26px 0}
+  .strip .wrap{display:flex;justify-content:center;gap:clamp(20px,6vw,80px);flex-wrap:wrap;text-align:center}
+  .strip b{display:block;font-size:26px;color:var(--navy)}
+  .strip small{font-size:12.5px;color:var(--muted)}
+
+  section{padding:64px 0}
+  h2{font-size:clamp(22px,3vw,31px);font-weight:800;letter-spacing:-.5px;text-align:center;margin-bottom:12px}
+  .lead-p{text-align:center;color:var(--muted);max-width:620px;margin:0 auto 44px;font-size:15.5px}
+
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+  .step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 22px}
+  .step .num{width:34px;height:34px;border-radius:50%;background:var(--navy);color:var(--amber);font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+  .step h3{font-size:16.5px;margin-bottom:8px}
+  .step p{font-size:13.8px;color:var(--muted)}
+
+  .metiers{background:var(--soft)}
+  .mgrid{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+  .mchip{background:#fff;border:1.5px solid var(--line);border-radius:24px;padding:9px 20px;font-size:14px;font-weight:600}
+  .mchip b{color:var(--amber2)}
+
+  .pricing-card{max-width:420px;margin:0 auto;background:#fff;border:2px solid var(--navy);border-radius:18px;overflow:hidden;box-shadow:0 14px 40px rgba(15,36,55,.12)}
+  .pricing-card .top{background:var(--navy);color:#fff;text-align:center;padding:22px}
+  .pricing-card .top .price{font-size:44px;font-weight:800;color:var(--amber)}
+  .pricing-card .top .price small{font-size:15px;color:#fff;font-weight:400;opacity:.75}
+  .pricing-card ul{list-style:none;padding:26px 30px}
+  .pricing-card li{font-size:14.5px;padding:7px 0 7px 28px;position:relative}
+  .pricing-card li::before{content:"✓";position:absolute;left:0;color:var(--amber2);font-weight:800}
+  .pricing-card .foot{padding:0 30px 28px;text-align:center}
+  .launch-note{text-align:center;font-size:13px;color:var(--muted);margin-top:16px}
+
+  #inscription{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#fff}
+  #inscription h2{color:#fff}
+  #inscription .lead-p{color:rgba(255,255,255,.75)}
+  form{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+  input,select{padding:13px 15px;border-radius:9px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.07);color:#fff;font-size:15px}
+  input::placeholder{color:rgba(255,255,255,.5)}
+  select{color:#fff}
+  select option{color:var(--txt)}
+  form .btn{margin-top:6px}
+  .rgpd{font-size:11px;opacity:.55;text-align:center;margin-top:10px}
+  #merci{display:none;text-align:center;font-size:17px;background:rgba(46,158,91,.2);border:1px solid #2e9e5b;border-radius:12px;padding:22px;max-width:520px;margin:0 auto}
+
+  .faq{max-width:720px;margin:0 auto}
+  details{border-bottom:1px solid var(--line);padding:16px 4px}
+  summary{font-weight:700;font-size:15.5px;cursor:pointer}
+  details p{font-size:14px;color:var(--muted);padding-top:10px}
+
+  footer{background:var(--navy);color:rgba(255,255,255,.5);font-size:12px;text-align:center;padding:22px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <div class="logo">Permis<span>Local</span></div>
+  <a class="cta" href="#inscription">Accès prioritaire</a>
+</div></nav>
+
+<div class="hero"><div class="wrap">
+  <div class="badge">🚧 Bientôt disponible dans le Pas-de-Calais (62)</div>
+  <h1>Chaque semaine, les nouveaux permis de construire du 62, <em>filtrés pour votre métier</em></h1>
+  <p class="sub">Piscine autorisée à Berck. Extension à Arras. Réfection de toiture au Touquet.
+  Pendant que vos concurrents attendent le bouche-à-oreille, vous recevez l'adresse des chantiers qui démarrent — avant tout le monde.</p>
+  <a class="btn" href="#inscription">Je veux les chantiers de mon secteur →</a>
+  <div class="under">Sans engagement · Les 50 premiers inscrits : 1 mois offert</div>
+</div></div>
+
+<div class="strip"><div class="wrap">
+  <div><b>100 %</b><small>données officielles<br>(autorisations d'urbanisme)</small></div>
+  <div><b>10 métiers</b><small>piscine, toiture, extension,<br>solaire, clôture...</small></div>
+  <div><b>1 email / semaine</b><small>zéro logiciel à apprendre,<br>tout arrive dans votre boîte</small></div>
+</div></div>
+
+<section><div class="wrap">
+  <h2>Comment ça marche</h2>
+  <p class="lead-p">Un permis de construire déposé aujourd'hui, c'est un chantier dans 3 à 9 mois. Nous les détectons pour vous.</p>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Choisissez votre métier et votre rayon</h3>
+      <p>Pisciniste à Béthune, 30 km autour ? Couvreur sur la Côte d'Opale ? Vous définissez votre terrain de chasse.</p></div>
+    <div class="step"><div class="num">2</div><h3>Recevez les nouvelles autorisations</h3>
+      <p>Chaque semaine, la liste des permis et déclarations de travaux qui concernent votre activité : adresse, nature du projet, surfaces.</p></div>
+    <div class="step"><div class="num">3</div><h3>Contactez le chantier en premier</h3>
+      <p>Courrier à l'adresse du projet, repérage sur place, ou contact direct quand le porteur est un professionnel (SIREN fourni).</p></div>
+  </div>
+</div></section>
+
+<section class="metiers"><div class="wrap">
+  <h2>Fait pour les artisans du bâtiment</h2>
+  <p class="lead-p">Chaque autorisation est classée automatiquement vers les corps de métier concernés.</p>
+  <div class="mgrid">
+    <div class="mchip">🏊 Piscinistes</div><div class="mchip">🏠 Constructeurs</div>
+    <div class="mchip">🧱 Maçons / extensions</div><div class="mchip">🏚 Couvreurs</div>
+    <div class="mchip">☀️ Installateurs solaires</div><div class="mchip">🪟 Vérandas & menuiseries</div>
+    <div class="mchip">🚪 Clôtures & portails</div><div class="mchip">🎨 Façadiers</div>
+    <div class="mchip">🌿 Paysagistes</div><div class="mchip">🔨 Rénovation générale</div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Un tarif d'artisan, pas de commercial</h2>
+  <p class="lead-p">Un seul chantier gagné rembourse plus d'un an d'abonnement.</p>
+  <div class="pricing-card">
+    <div class="top">
+      <div style="font-size:14px;font-weight:700;letter-spacing:1px;opacity:.8">OFFRE DE LANCEMENT — PAS-DE-CALAIS</div>
+      <div class="price">59 €<small> /mois</small></div>
+    </div>
+    <ul>
+      <li>Toutes les autorisations de votre métier dans votre rayon</li>
+      <li>Alerte email hebdomadaire + accès à la carte interactive</li>
+      <li>Adresse du projet, nature des travaux, surfaces</li>
+      <li>SIREN des porteurs professionnels (promoteurs, SCI)</li>
+      <li>Sans engagement, résiliable en 1 clic</li>
+    </ul>
+    <div class="foot"><a class="btn" href="#inscription">Rejoindre la liste d'attente</a></div>
+  </div>
+  <p class="launch-note">Lancement dès 50 artisans inscrits dans le département — les inscrits de la liste d'attente ont un mois offert.</p>
+</div></section>
+
+<section id="inscription"><div class="wrap">
+  <h2>Accès prioritaire — Pas-de-Calais</h2>
+  <p class="lead-p">Laissez votre email : vous serez prévenu au lancement et bénéficierez du mois offert. Pas de spam, promis.</p>
+  <!-- ⚙️ CONFIGURATION : créez un formulaire gratuit sur formspree.io et remplacez VOTRE_ID ci-dessous.
+       Alternative sans compte : remplacez tout le <form> par un lien vers un formulaire Tally/Google Forms. -->
+  <form action="https://formspree.io/f/VOTRE_ID" method="POST" id="waitlist">
+    <input type="text" name="entreprise" placeholder="Nom de votre entreprise" required>
+    <select name="metier" required>
+      <option value="" disabled selected>Votre métier principal</option>
+      <option>Pisciniste</option><option>Couvreur</option><option>Maçon / gros œuvre</option>
+      <option>Constructeur de maisons</option><option>Installateur solaire</option>
+      <option>Véranda / menuiserie</option><option>Clôture / portail</option>
+      <option>Façadier / ravalement</option><option>Paysagiste</option><option>Autre</option>
+    </select>
+    <input type="text" name="secteur" placeholder="Votre ville + rayon d'intervention (ex : Arras, 40 km)" required>
+    <input type="email" name="email" placeholder="Votre email" required>
+    <input type="tel" name="telephone" placeholder="Téléphone (facultatif)">
+    <button class="btn" type="submit">Réserver mon accès (1 mois offert)</button>
+  </form>
+  <div id="merci">✅ Merci ! Vous êtes sur la liste. Nous revenons vers vous très vite.</div>
+  <p class="rgpd">Vos coordonnées servent uniquement à vous prévenir du lancement. Suppression sur simple demande — RGPD respecté.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Questions fréquentes</h2>
+  <div class="faq">
+    <details><summary>D'où viennent les données ?</summary>
+      <p>Des autorisations d'urbanisme officielles (base SITADEL, ministère de la Transition écologique), publiées en open data. Rien de scrapé, rien d'illégal : des données publiques, mises en forme pour votre métier.</p></details>
+    <details><summary>Ai-je le nom et le téléphone du propriétaire ?</summary>
+      <p>Non — la loi protège les données des particuliers, et c'est tant mieux. Vous avez l'adresse exacte du projet : un courrier « à l'attention du propriétaire », c'est légal, simple, et ça marche. Quand le porteur du projet est une entreprise (promoteur, SCI), sa dénomination et son SIREN sont fournis.</p></details>
+    <details><summary>Les permis ne sont-ils pas déjà trop vieux quand ils sont publiés ?</summary>
+      <p>Les données officielles ont 1 à 3 mois de décalage. C'est le moment idéal : le permis est accordé, le projet est financé, mais les artisans ne sont pas encore tous choisis. Un permis « frais » de 2 mois est un excellent prospect.</p></details>
+    <details><summary>Ça remplace les plateformes de mise en relation ?</summary>
+      <p>C'est l'inverse. Sur les plateformes de leads, vous payez pour une demande revendue à 4 concurrents. Ici, vous êtes seul à décider qui contacter, et le chantier ne sait même pas encore qu'il va vous rencontrer.</p></details>
+    <details><summary>Et si je couvre plusieurs départements ?</summary>
+      <p>Le lancement se fait sur le Pas-de-Calais. Le Nord (59) et la Somme (80) suivront — indiquez-le dans le formulaire, ça accélérera leur ouverture.</p></details>
+  </div>
+</div></section>
+
+<footer>PermisLocal · Données : SITADEL (open data) · Contact : bonjour@permislocal.fr<br>
+Mentions légales et CGV disponibles au lancement</footer>
+
+<script>
+// Affiche le message de remerciement sans quitter la page (fonctionne avec Formspree en AJAX)
+document.getElementById('waitlist').addEventListener('submit', async function(e){
+  const action = this.getAttribute('action');
+  if (action.includes('VOTRE_ID')) { // formulaire pas encore configuré : on simule pour la démo
+    e.preventDefault();
+    this.style.display='none';
+    document.getElementById('merci').style.display='block';
+    return;
+  }
+  e.preventDefault();
+  try{
+    const r = await fetch(action, {method:'POST', body:new FormData(this), headers:{'Accept':'application/json'}});
+    if(r.ok){ this.style.display='none'; document.getElementById('merci').style.display='block'; }
+    else{ this.submit(); }
+  }catch(_){ this.submit(); }
+});
+</script>
+</body>
+</html>

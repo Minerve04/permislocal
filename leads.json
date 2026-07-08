@@ -1,0 +1,2927 @@
+{
+ "generated": "2026-07-08T18:17:53",
+ "demo": true,
+ "dept": "62",
+ "dept_nom": "Pas-de-Calais",
+ "count": 160,
+ "leads": [
+  {
+   "id": "PC 0893 25 D1151",
+   "date": "2026-07-03",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "15 rue des Frères Lumière, Wimereux",
+   "cp": "62460",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "203",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.779535,
+   "lon": 1.607495
+  },
+  {
+   "id": "PC 0119 25 D1144",
+   "date": "2026-06-30",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "78 rue des Frères Lumière, Béthune",
+   "cp": "62360",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "795",
+   "surface_creee": "0",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "574728493",
+   "lat": 50.553135,
+   "lon": 2.638444
+  },
+  {
+   "id": "PC 0160 25 D1081",
+   "date": "2026-06-29",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "114 avenue de la Libération, Boulogne-sur-Mer",
+   "cp": "62430",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "401",
+   "surface_creee": "40",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.723346,
+   "lon": 1.608794
+  },
+  {
+   "id": "PC 0548 25 D1149",
+   "date": "2026-06-29",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "57 chemin de la Métairie, Marck",
+   "cp": "62680",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "306",
+   "surface_creee": "15",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.93104,
+   "lon": 1.949892
+  },
+  {
+   "id": "PC 0119 25 D1004",
+   "date": "2026-06-28",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "73 rue de la Vigne, Béthune",
+   "cp": "62300",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "351",
+   "surface_creee": "15",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "674560600",
+   "lat": 50.538636,
+   "lon": 2.683295
+  },
+  {
+   "id": "PC 0510 25 D1010",
+   "date": "2026-06-28",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "88 boulevard des Océanides, Liévin",
+   "cp": "62140",
+   "commune_insee": "62510",
+   "commune": "Liévin",
+   "surface_terrain": "1085",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.410403,
+   "lon": 2.75948
+  },
+  {
+   "id": "PC 0160 25 D1130",
+   "date": "2026-06-27",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "13 rue des Camélias, Boulogne-sur-Mer",
+   "cp": "62190",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "805",
+   "surface_creee": "0",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "523277661",
+   "lat": 50.719197,
+   "lon": 1.64451
+  },
+  {
+   "id": "PC 0108 25 D1108",
+   "date": "2026-06-24",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "92 impasse des Mésanges, Berck",
+   "cp": "62070",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "763",
+   "surface_creee": "15",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "689384704",
+   "lat": 50.404662,
+   "lon": 1.613646
+  },
+  {
+   "id": "PC 0318 25 D1114",
+   "date": "2026-06-24",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "118 rue des Ajoncs, Étaples",
+   "cp": "62130",
+   "commune_insee": "62318",
+   "commune": "Étaples",
+   "surface_terrain": "206",
+   "surface_creee": "45",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "871106914",
+   "lat": 50.480969,
+   "lon": 1.641157
+  },
+  {
+   "id": "PC 0510 25 D1120",
+   "date": "2026-06-24",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "44 route de la Côte, Liévin",
+   "cp": "62150",
+   "commune_insee": "62510",
+   "commune": "Liévin",
+   "surface_terrain": "794",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.430948,
+   "lon": 2.760297
+  },
+  {
+   "id": "PC 0160 25 D1156",
+   "date": "2026-06-24",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "108 impasse des Mésanges, Boulogne-sur-Mer",
+   "cp": "62780",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "499",
+   "surface_creee": "22",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "606519565",
+   "lat": 50.721321,
+   "lon": 1.600548
+  },
+  {
+   "id": "PC 0643 25 D1072",
+   "date": "2026-06-20",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "18 chemin de la Métairie, Outreau",
+   "cp": "62350",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "1150",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.704665,
+   "lon": 1.576068
+  },
+  {
+   "id": "PC 0318 25 D1087",
+   "date": "2026-06-20",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "90 rue des Frères Lumière, Étaples",
+   "cp": "62950",
+   "commune_insee": "62318",
+   "commune": "Étaples",
+   "surface_terrain": "800",
+   "surface_creee": "22",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.509523,
+   "lon": 1.616339
+  },
+  {
+   "id": "PC 0525 25 D1000",
+   "date": "2026-06-19",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "115 allée des Tilleuls, Longuenesse",
+   "cp": "62450",
+   "commune_insee": "62525",
+   "commune": "Longuenesse",
+   "surface_terrain": "375",
+   "surface_creee": "28",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.73556,
+   "lon": 2.30421
+  },
+  {
+   "id": "PC 0765 25 D1002",
+   "date": "2026-06-15",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "70 allée des Tilleuls, Saint-Omer",
+   "cp": "62900",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "831",
+   "surface_creee": "24",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.713858,
+   "lon": 2.283981
+  },
+  {
+   "id": "PC 0893 25 D1154",
+   "date": "2026-06-11",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "63 place de l'Église, Wimereux",
+   "cp": "62250",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "403",
+   "surface_creee": "44",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.780238,
+   "lon": 1.610394
+  },
+  {
+   "id": "PC 0108 25 D1018",
+   "date": "2026-06-10",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "90 chemin de la Métairie, Berck",
+   "cp": "62890",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "752",
+   "surface_creee": "12",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.403113,
+   "lon": 1.618157
+  },
+  {
+   "id": "PC 0765 25 D1060",
+   "date": "2026-06-08",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "80 place de l'Église, Saint-Omer",
+   "cp": "62240",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "435",
+   "surface_creee": "16",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.745105,
+   "lon": 2.269193
+  },
+  {
+   "id": "PC 0758 25 D1062",
+   "date": "2026-06-08",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "114 allée des Tilleuls, Saint-Martin-Boulogne",
+   "cp": "62730",
+   "commune_insee": "62758",
+   "commune": "Saint-Martin-Boulogne",
+   "surface_terrain": "668",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.738812,
+   "lon": 1.638803
+  },
+  {
+   "id": "PC 0215 25 D1056",
+   "date": "2026-06-06",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "32 rue du Moulin, Carvin",
+   "cp": "62250",
+   "commune_insee": "62215",
+   "commune": "Carvin",
+   "surface_terrain": "1075",
+   "surface_creee": "8",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.487704,
+   "lon": 2.967918
+  },
+  {
+   "id": "PC 0041 25 D1107",
+   "date": "2026-06-06",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "7 boulevard des Océanides, Arras",
+   "cp": "62000",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "471",
+   "surface_creee": "28",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.284914,
+   "lon": 2.781774
+  },
+  {
+   "id": "PC 0193 25 D1104",
+   "date": "2026-06-05",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "100 boulevard des Océanides, Calais",
+   "cp": "62520",
+   "commune_insee": "62193",
+   "commune": "Calais",
+   "surface_terrain": "585",
+   "surface_creee": "32",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "495702259",
+   "lat": 50.985853,
+   "lon": 1.839772
+  },
+  {
+   "id": "PC 0119 25 D1001",
+   "date": "2026-06-04",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "61 allée des Tilleuls, Béthune",
+   "cp": "62800",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "550",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.517664,
+   "lon": 2.671056
+  },
+  {
+   "id": "PC 0758 25 D1147",
+   "date": "2026-05-29",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "74 rue des Frères Lumière, Saint-Martin-Boulogne",
+   "cp": "62570",
+   "commune_insee": "62758",
+   "commune": "Saint-Martin-Boulogne",
+   "surface_terrain": "894",
+   "surface_creee": "0",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "614261374",
+   "lat": 50.752339,
+   "lon": 1.614207
+  },
+  {
+   "id": "PC 0065 25 D1124",
+   "date": "2026-05-27",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "56 impasse des Mésanges, Avion",
+   "cp": "62360",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "674",
+   "surface_creee": "52",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "728865338",
+   "lat": 50.414068,
+   "lon": 2.807611
+  },
+  {
+   "id": "PC 0643 25 D1005",
+   "date": "2026-05-26",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "19 rue des Frères Lumière, Outreau",
+   "cp": "62860",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "550",
+   "surface_creee": "14",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.704397,
+   "lon": 1.594989
+  },
+  {
+   "id": "PC 0427 25 D1146",
+   "date": "2026-05-25",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "41 rue du Moulin, Hénin-Beaumont",
+   "cp": "62020",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "510",
+   "surface_creee": "0",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "870946746",
+   "lat": 50.423886,
+   "lon": 2.932232
+  },
+  {
+   "id": "PC 0108 25 D1009",
+   "date": "2026-05-23",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "72 rue des Ajoncs, Berck",
+   "cp": "62060",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "551",
+   "surface_creee": "19",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.411766,
+   "lon": 1.567932
+  },
+  {
+   "id": "PC 0643 25 D1158",
+   "date": "2026-05-23",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "47 rue des Ajoncs, Outreau",
+   "cp": "62720",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "336",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.673693,
+   "lon": 1.601606
+  },
+  {
+   "id": "PC 0048 25 D1043",
+   "date": "2026-05-22",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "65 place de l'Église, Auchel",
+   "cp": "62460",
+   "commune_insee": "62048",
+   "commune": "Auchel",
+   "surface_terrain": "658",
+   "surface_creee": "21",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.537388,
+   "lon": 2.449251
+  },
+  {
+   "id": "PC 0119 25 D1047",
+   "date": "2026-05-22",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "10 route de la Côte, Béthune",
+   "cp": "62710",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "325",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.547024,
+   "lon": 2.674672
+  },
+  {
+   "id": "PC 0041 25 D1122",
+   "date": "2026-05-21",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "67 rue des Ajoncs, Arras",
+   "cp": "62360",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "243",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.313546,
+   "lon": 2.768042
+  },
+  {
+   "id": "PC 0765 25 D1150",
+   "date": "2026-05-20",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "51 allée des Tilleuls, Saint-Omer",
+   "cp": "62380",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "234",
+   "surface_creee": "26",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.753161,
+   "lon": 2.267145
+  },
+  {
+   "id": "PC 0498 25 D1079",
+   "date": "2026-05-19",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "35 rue des Camélias, Lens",
+   "cp": "62440",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "818",
+   "surface_creee": "0",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "720471365",
+   "lat": 50.411131,
+   "lon": 2.82167
+  },
+  {
+   "id": "PC 0643 25 D1148",
+   "date": "2026-05-19",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "10 chemin de la Métairie, Outreau",
+   "cp": "62840",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "591",
+   "surface_creee": "0",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "807416651",
+   "lat": 50.724139,
+   "lon": 1.576246
+  },
+  {
+   "id": "PC 0510 25 D1155",
+   "date": "2026-05-19",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "112 rue des Camélias, Liévin",
+   "cp": "62100",
+   "commune_insee": "62510",
+   "commune": "Liévin",
+   "surface_terrain": "239",
+   "surface_creee": "0",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "723329131",
+   "lat": 50.3974,
+   "lon": 2.771487
+  },
+  {
+   "id": "PC 0510 25 D1134",
+   "date": "2026-05-17",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "11 place de l'Église, Liévin",
+   "cp": "62640",
+   "commune_insee": "62510",
+   "commune": "Liévin",
+   "surface_terrain": "759",
+   "surface_creee": "30",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.456786,
+   "lon": 2.747172
+  },
+  {
+   "id": "PC 0119 25 D1063",
+   "date": "2026-05-15",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "6 rue du Moulin, Béthune",
+   "cp": "62960",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "260",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.541631,
+   "lon": 2.614619
+  },
+  {
+   "id": "PC 0041 25 D1139",
+   "date": "2026-05-13",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "2 allée des Tilleuls, Arras",
+   "cp": "62510",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "277",
+   "surface_creee": "34",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.307943,
+   "lon": 2.755194
+  },
+  {
+   "id": "PC 0427 25 D1126",
+   "date": "2026-05-12",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "72 avenue de la Libération, Hénin-Beaumont",
+   "cp": "62100",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "804",
+   "surface_creee": "0",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "326705351",
+   "lat": 50.428767,
+   "lon": 2.935921
+  },
+  {
+   "id": "PC 0048 25 D1142",
+   "date": "2026-05-11",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "105 route de la Côte, Auchel",
+   "cp": "62390",
+   "commune_insee": "62048",
+   "commune": "Auchel",
+   "surface_terrain": "531",
+   "surface_creee": "31",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "877951799",
+   "lat": 50.499228,
+   "lon": 2.457254
+  },
+  {
+   "id": "PC 0041 25 D1036",
+   "date": "2026-05-10",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "94 route de la Côte, Arras",
+   "cp": "62140",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "288",
+   "surface_creee": "26",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.290649,
+   "lon": 2.760984
+  },
+  {
+   "id": "PC 0119 25 D1159",
+   "date": "2026-05-09",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "39 route de la Côte, Béthune",
+   "cp": "62460",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "456",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.526652,
+   "lon": 2.641152
+  },
+  {
+   "id": "PC 0525 25 D1091",
+   "date": "2026-05-08",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "83 chemin de la Métairie, Longuenesse",
+   "cp": "62680",
+   "commune_insee": "62525",
+   "commune": "Longuenesse",
+   "surface_terrain": "797",
+   "surface_creee": "25",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "708676288",
+   "lat": 50.70562,
+   "lon": 2.228697
+  },
+  {
+   "id": "PC 0048 25 D1141",
+   "date": "2026-05-08",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "34 boulevard des Océanides, Auchel",
+   "cp": "62740",
+   "commune_insee": "62048",
+   "commune": "Auchel",
+   "surface_terrain": "653",
+   "surface_creee": "17",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "461677755",
+   "lat": 50.518966,
+   "lon": 2.451009
+  },
+  {
+   "id": "PC 0160 25 D1037",
+   "date": "2026-05-07",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "14 impasse des Mésanges, Boulogne-sur-Mer",
+   "cp": "62150",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "997",
+   "surface_creee": "11",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.716529,
+   "lon": 1.598503
+  },
+  {
+   "id": "PC 0119 25 D1093",
+   "date": "2026-05-07",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "61 rue de la Vigne, Béthune",
+   "cp": "62870",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "1120",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.528165,
+   "lon": 2.623067
+  },
+  {
+   "id": "PC 0108 25 D1138",
+   "date": "2026-05-05",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "31 rue des Ajoncs, Berck",
+   "cp": "62740",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "632",
+   "surface_creee": "33",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.417449,
+   "lon": 1.585063
+  },
+  {
+   "id": "PC 0893 25 D1100",
+   "date": "2026-05-04",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "22 chemin de la Métairie, Wimereux",
+   "cp": "62920",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "547",
+   "surface_creee": "19",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "436947134",
+   "lat": 50.755099,
+   "lon": 1.608903
+  },
+  {
+   "id": "PC 0065 25 D1092",
+   "date": "2026-05-02",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "118 rue de la Vigne, Avion",
+   "cp": "62380",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "304",
+   "surface_creee": "0",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "525441523",
+   "lat": 50.44704,
+   "lon": 2.824622
+  },
+  {
+   "id": "PC 0048 25 D1067",
+   "date": "2026-05-01",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "52 place de l'Église, Auchel",
+   "cp": "62990",
+   "commune_insee": "62048",
+   "commune": "Auchel",
+   "surface_terrain": "884",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.511589,
+   "lon": 2.483425
+  },
+  {
+   "id": "PC 0215 25 D1012",
+   "date": "2026-04-30",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "20 chemin de la Métairie, Carvin",
+   "cp": "62670",
+   "commune_insee": "62215",
+   "commune": "Carvin",
+   "surface_terrain": "723",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.523824,
+   "lon": 2.973907
+  },
+  {
+   "id": "PC 0826 25 D1038",
+   "date": "2026-04-30",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "28 boulevard des Océanides, Le Touquet-Paris-Plage",
+   "cp": "62410",
+   "commune_insee": "62826",
+   "commune": "Le Touquet-Paris-Plage",
+   "surface_terrain": "718",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.516583,
+   "lon": 1.615621
+  },
+  {
+   "id": "PC 0048 25 D1022",
+   "date": "2026-04-29",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "98 rue du Moulin, Auchel",
+   "cp": "62580",
+   "commune_insee": "62048",
+   "commune": "Auchel",
+   "surface_terrain": "704",
+   "surface_creee": "31",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "330742610",
+   "lat": 50.480336,
+   "lon": 2.457791
+  },
+  {
+   "id": "PC 0065 25 D1068",
+   "date": "2026-04-28",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "24 impasse des Mésanges, Avion",
+   "cp": "62530",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "698",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.416615,
+   "lon": 2.793291
+  },
+  {
+   "id": "PC 0758 25 D1061",
+   "date": "2026-04-26",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "60 rue du Moulin, Saint-Martin-Boulogne",
+   "cp": "62990",
+   "commune_insee": "62758",
+   "commune": "Saint-Martin-Boulogne",
+   "surface_terrain": "297",
+   "surface_creee": "52",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.694592,
+   "lon": 1.652437
+  },
+  {
+   "id": "PC 0643 25 D1078",
+   "date": "2026-04-26",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "51 rue des Camélias, Outreau",
+   "cp": "62340",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "582",
+   "surface_creee": "0",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "464696611",
+   "lat": 50.687405,
+   "lon": 1.618201
+  },
+  {
+   "id": "PC 0048 25 D1069",
+   "date": "2026-04-25",
+   "nature": "Réfection complète de la toiture",
+   "metiers": [
+    "toiture"
+   ],
+   "adresse": "80 allée des Tilleuls, Auchel",
+   "cp": "62340",
+   "commune_insee": "62048",
+   "commune": "Auchel",
+   "surface_terrain": "639",
+   "surface_creee": "0",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "634322757",
+   "lat": 50.518736,
+   "lon": 2.464081
+  },
+  {
+   "id": "PC 0893 25 D1157",
+   "date": "2026-04-24",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "63 place de l'Église, Wimereux",
+   "cp": "62790",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "356",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.736188,
+   "lon": 1.566617
+  },
+  {
+   "id": "PC 0826 25 D1082",
+   "date": "2026-04-22",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "17 avenue de la Libération, Le Touquet-Paris-Plage",
+   "cp": "62100",
+   "commune_insee": "62826",
+   "commune": "Le Touquet-Paris-Plage",
+   "surface_terrain": "491",
+   "surface_creee": "44",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "743967292",
+   "lat": 50.524508,
+   "lon": 1.619714
+  },
+  {
+   "id": "PC 0548 25 D1074",
+   "date": "2026-04-21",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "61 rue des Camélias, Marck",
+   "cp": "62180",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "243",
+   "surface_creee": "22",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "841334318",
+   "lat": 50.982096,
+   "lon": 1.985608
+  },
+  {
+   "id": "PC 0427 25 D1071",
+   "date": "2026-04-19",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "91 chemin de la Métairie, Hénin-Beaumont",
+   "cp": "62210",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "481",
+   "surface_creee": "60",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.432886,
+   "lon": 2.924606
+  },
+  {
+   "id": "PC 0065 25 D1077",
+   "date": "2026-04-19",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "117 rue de la Vigne, Avion",
+   "cp": "62820",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "600",
+   "surface_creee": "13",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.416034,
+   "lon": 2.823917
+  },
+  {
+   "id": "PC 0548 25 D1115",
+   "date": "2026-04-19",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "115 rue des Ajoncs, Marck",
+   "cp": "62010",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "1019",
+   "surface_creee": "8",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.956434,
+   "lon": 1.94252
+  },
+  {
+   "id": "PC 0498 25 D1129",
+   "date": "2026-04-19",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "70 rue des Ajoncs, Lens",
+   "cp": "62470",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "402",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.444728,
+   "lon": 2.829221
+  },
+  {
+   "id": "PC 0065 25 D1096",
+   "date": "2026-04-18",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "43 place de l'Église, Avion",
+   "cp": "62970",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "589",
+   "surface_creee": "17",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.448156,
+   "lon": 2.808637
+  },
+  {
+   "id": "PC 0893 25 D1057",
+   "date": "2026-04-17",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "9 place de l'Église, Wimereux",
+   "cp": "62240",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "250",
+   "surface_creee": "48",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.778559,
+   "lon": 1.61426
+  },
+  {
+   "id": "PC 0525 25 D1136",
+   "date": "2026-04-16",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "10 rue de la Vigne, Longuenesse",
+   "cp": "62010",
+   "commune_insee": "62525",
+   "commune": "Longuenesse",
+   "surface_terrain": "434",
+   "surface_creee": "53",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.724136,
+   "lon": 2.224007
+  },
+  {
+   "id": "PC 0160 25 D1030",
+   "date": "2026-04-10",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "70 rue de la Vigne, Boulogne-sur-Mer",
+   "cp": "62880",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "837",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.728126,
+   "lon": 1.628606
+  },
+  {
+   "id": "PC 0427 25 D1050",
+   "date": "2026-04-09",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "62 route de la Côte, Hénin-Beaumont",
+   "cp": "62280",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "230",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.455126,
+   "lon": 2.965371
+  },
+  {
+   "id": "PC 0826 25 D1106",
+   "date": "2026-04-09",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "18 chemin de la Métairie, Le Touquet-Paris-Plage",
+   "cp": "62770",
+   "commune_insee": "62826",
+   "commune": "Le Touquet-Paris-Plage",
+   "surface_terrain": "781",
+   "surface_creee": "37",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.52349,
+   "lon": 1.582177
+  },
+  {
+   "id": "PC 0826 25 D1099",
+   "date": "2026-04-08",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "43 rue des Camélias, Le Touquet-Paris-Plage",
+   "cp": "62460",
+   "commune_insee": "62826",
+   "commune": "Le Touquet-Paris-Plage",
+   "surface_terrain": "868",
+   "surface_creee": "49",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.538963,
+   "lon": 1.573396
+  },
+  {
+   "id": "PC 0643 25 D1135",
+   "date": "2026-04-08",
+   "nature": "Construction d'une maison individuelle",
+   "metiers": [
+    "maison_neuve"
+   ],
+   "adresse": "88 boulevard des Océanides, Outreau",
+   "cp": "62320",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "394",
+   "surface_creee": "78",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.70426,
+   "lon": 1.650892
+  },
+  {
+   "id": "PC 0427 25 D1140",
+   "date": "2026-04-07",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "95 boulevard des Océanides, Hénin-Beaumont",
+   "cp": "62360",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "393",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.440902,
+   "lon": 2.982704
+  },
+  {
+   "id": "PC 0178 25 D1032",
+   "date": "2026-04-06",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "68 chemin de la Métairie, Bruay-la-Buissière",
+   "cp": "62840",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "321",
+   "surface_creee": "18",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.464751,
+   "lon": 2.531917
+  },
+  {
+   "id": "PC 0893 25 D1017",
+   "date": "2026-04-05",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "111 place de l'Église, Wimereux",
+   "cp": "62990",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "371",
+   "surface_creee": "23",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.785758,
+   "lon": 1.628118
+  },
+  {
+   "id": "PC 0548 25 D1070",
+   "date": "2026-04-04",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "110 boulevard des Océanides, Marck",
+   "cp": "62210",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "770",
+   "surface_creee": "8",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "306395417",
+   "lat": 50.981536,
+   "lon": 1.933805
+  },
+  {
+   "id": "PC 0160 25 D1143",
+   "date": "2026-04-04",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "106 chemin de la Métairie, Boulogne-sur-Mer",
+   "cp": "62430",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "451",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.728648,
+   "lon": 1.62586
+  },
+  {
+   "id": "PC 0893 25 D1015",
+   "date": "2026-04-03",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "30 place de l'Église, Wimereux",
+   "cp": "62400",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "466",
+   "surface_creee": "33",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.792032,
+   "lon": 1.596534
+  },
+  {
+   "id": "PC 0318 25 D1035",
+   "date": "2026-04-02",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "70 rue des Ajoncs, Étaples",
+   "cp": "62450",
+   "commune_insee": "62318",
+   "commune": "Étaples",
+   "surface_terrain": "325",
+   "surface_creee": "8",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.517258,
+   "lon": 1.663257
+  },
+  {
+   "id": "PC 0525 25 D1113",
+   "date": "2026-04-02",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "72 rue de la Vigne, Longuenesse",
+   "cp": "62820",
+   "commune_insee": "62525",
+   "commune": "Longuenesse",
+   "surface_terrain": "827",
+   "surface_creee": "35",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.776203,
+   "lon": 2.239276
+  },
+  {
+   "id": "PC 0826 25 D1128",
+   "date": "2026-04-02",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "53 route de la Côte, Le Touquet-Paris-Plage",
+   "cp": "62820",
+   "commune_insee": "62826",
+   "commune": "Le Touquet-Paris-Plage",
+   "surface_terrain": "247",
+   "surface_creee": "50",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.506076,
+   "lon": 1.569358
+  },
+  {
+   "id": "PC 0498 25 D1040",
+   "date": "2026-03-31",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "32 allée des Tilleuls, Lens",
+   "cp": "62100",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "644",
+   "surface_creee": "42",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.47577,
+   "lon": 2.836713
+  },
+  {
+   "id": "PC 0193 25 D1053",
+   "date": "2026-03-31",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "64 rue de la Vigne, Calais",
+   "cp": "62330",
+   "commune_insee": "62193",
+   "commune": "Calais",
+   "surface_terrain": "877",
+   "surface_creee": "23",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.967452,
+   "lon": 1.860219
+  },
+  {
+   "id": "PC 0765 25 D1016",
+   "date": "2026-03-28",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "55 rue des Camélias, Saint-Omer",
+   "cp": "62550",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "1191",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.754031,
+   "lon": 2.255226
+  },
+  {
+   "id": "PC 0178 25 D1024",
+   "date": "2026-03-28",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "3 rue des Frères Lumière, Bruay-la-Buissière",
+   "cp": "62550",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "406",
+   "surface_creee": "17",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.51086,
+   "lon": 2.545266
+  },
+  {
+   "id": "PC 0178 25 D1059",
+   "date": "2026-03-28",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "42 rue du Moulin, Bruay-la-Buissière",
+   "cp": "62320",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "484",
+   "surface_creee": "0",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "640642171",
+   "lat": 50.471763,
+   "lon": 2.542128
+  },
+  {
+   "id": "PC 0178 25 D1116",
+   "date": "2026-03-27",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "114 rue des Ajoncs, Bruay-la-Buissière",
+   "cp": "62850",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "584",
+   "surface_creee": "32",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.482349,
+   "lon": 2.531962
+  },
+  {
+   "id": "PC 0765 25 D1026",
+   "date": "2026-03-26",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "114 chemin de la Métairie, Saint-Omer",
+   "cp": "62130",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "468",
+   "surface_creee": "36",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "589591360",
+   "lat": 50.760043,
+   "lon": 2.251804
+  },
+  {
+   "id": "PC 0108 25 D1045",
+   "date": "2026-03-25",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "111 rue du Moulin, Berck",
+   "cp": "62140",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "521",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.433626,
+   "lon": 1.6055
+  },
+  {
+   "id": "PC 0041 25 D1025",
+   "date": "2026-03-23",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "52 boulevard des Océanides, Arras",
+   "cp": "62440",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "709",
+   "surface_creee": "15",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.285126,
+   "lon": 2.80306
+  },
+  {
+   "id": "PC 0893 25 D1119",
+   "date": "2026-03-23",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "46 chemin de la Métairie, Wimereux",
+   "cp": "62730",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "226",
+   "surface_creee": "36",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.794134,
+   "lon": 1.626647
+  },
+  {
+   "id": "PC 0643 25 D1013",
+   "date": "2026-03-21",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "55 rue des Ajoncs, Outreau",
+   "cp": "62590",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "444",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.702738,
+   "lon": 1.576238
+  },
+  {
+   "id": "PC 0548 25 D1034",
+   "date": "2026-03-17",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "59 place de l'Église, Marck",
+   "cp": "62820",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "602",
+   "surface_creee": "42",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "561920796",
+   "lat": 50.957661,
+   "lon": 1.964925
+  },
+  {
+   "id": "PC 0643 25 D1048",
+   "date": "2026-03-15",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "32 route de la Côte, Outreau",
+   "cp": "62480",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "821",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.701335,
+   "lon": 1.585808
+  },
+  {
+   "id": "PC 0119 25 D1105",
+   "date": "2026-03-15",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "62 rue des Camélias, Béthune",
+   "cp": "62810",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "405",
+   "surface_creee": "16",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "737387813",
+   "lat": 50.539564,
+   "lon": 2.631859
+  },
+  {
+   "id": "PC 0065 25 D1064",
+   "date": "2026-03-14",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "109 impasse des Mésanges, Avion",
+   "cp": "62060",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "782",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.384709,
+   "lon": 2.804237
+  },
+  {
+   "id": "PC 0178 25 D1023",
+   "date": "2026-03-13",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "5 rue de la Vigne, Bruay-la-Buissière",
+   "cp": "62380",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "251",
+   "surface_creee": "30",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.501757,
+   "lon": 2.560379
+  },
+  {
+   "id": "PC 0427 25 D1044",
+   "date": "2026-03-13",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "28 rue des Frères Lumière, Hénin-Beaumont",
+   "cp": "62120",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "1146",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.404491,
+   "lon": 2.958129
+  },
+  {
+   "id": "PC 0041 25 D1111",
+   "date": "2026-03-13",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "76 chemin de la Métairie, Arras",
+   "cp": "62510",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "856",
+   "surface_creee": "36",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.309316,
+   "lon": 2.777706
+  },
+  {
+   "id": "PC 0893 25 D1029",
+   "date": "2026-03-10",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "84 rue des Ajoncs, Wimereux",
+   "cp": "62570",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "560",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.791525,
+   "lon": 1.612806
+  },
+  {
+   "id": "PC 0643 25 D1101",
+   "date": "2026-03-10",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "36 rue de la Vigne, Outreau",
+   "cp": "62750",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "301",
+   "surface_creee": "25",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "357563629",
+   "lat": 50.661899,
+   "lon": 1.583704
+  },
+  {
+   "id": "PC 0108 25 D1132",
+   "date": "2026-03-10",
+   "nature": "Extension avec création d'une terrasse couverte",
+   "metiers": [
+    "extension",
+    "veranda_terrasse"
+   ],
+   "adresse": "34 route de la Côte, Berck",
+   "cp": "62740",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "378",
+   "surface_creee": "34",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.409817,
+   "lon": 1.621625
+  },
+  {
+   "id": "PC 0178 25 D1003",
+   "date": "2026-03-09",
+   "nature": "Réfection complète de la toiture",
+   "metiers": [
+    "toiture"
+   ],
+   "adresse": "40 boulevard des Océanides, Bruay-la-Buissière",
+   "cp": "62960",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "442",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.478512,
+   "lon": 2.531543
+  },
+  {
+   "id": "PC 0318 25 D1042",
+   "date": "2026-03-09",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "61 boulevard des Océanides, Étaples",
+   "cp": "62440",
+   "commune_insee": "62318",
+   "commune": "Étaples",
+   "surface_terrain": "207",
+   "surface_creee": "74",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.532712,
+   "lon": 1.606502
+  },
+  {
+   "id": "PC 0178 25 D1102",
+   "date": "2026-03-08",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "84 rue des Frères Lumière, Bruay-la-Buissière",
+   "cp": "62300",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "1106",
+   "surface_creee": "16",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.459944,
+   "lon": 2.544035
+  },
+  {
+   "id": "PC 0498 25 D1097",
+   "date": "2026-03-04",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "22 chemin de la Métairie, Lens",
+   "cp": "62280",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "829",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.388908,
+   "lon": 2.80471
+  },
+  {
+   "id": "PC 0215 25 D1125",
+   "date": "2026-03-03",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "101 allée des Tilleuls, Carvin",
+   "cp": "62750",
+   "commune_insee": "62215",
+   "commune": "Carvin",
+   "surface_terrain": "773",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.473557,
+   "lon": 2.964904
+  },
+  {
+   "id": "PC 0498 25 D1027",
+   "date": "2026-03-02",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "54 rue des Camélias, Lens",
+   "cp": "62610",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "244",
+   "surface_creee": "0",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "706189918",
+   "lat": 50.437299,
+   "lon": 2.82219
+  },
+  {
+   "id": "PC 0510 25 D1131",
+   "date": "2026-03-02",
+   "nature": "Construction d'une maison individuelle",
+   "metiers": [
+    "maison_neuve"
+   ],
+   "adresse": "46 place de l'Église, Liévin",
+   "cp": "62700",
+   "commune_insee": "62510",
+   "commune": "Liévin",
+   "surface_terrain": "427",
+   "surface_creee": "117",
+   "demandeur_pro": "SARL ATLANTIQUE HABITAT",
+   "siren": "307376568",
+   "lat": 50.419474,
+   "lon": 2.720917
+  },
+  {
+   "id": "PC 0548 25 D1020",
+   "date": "2026-02-27",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "114 rue du Moulin, Marck",
+   "cp": "62330",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "690",
+   "surface_creee": "14",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.951333,
+   "lon": 1.940861
+  },
+  {
+   "id": "PC 0108 25 D1127",
+   "date": "2026-02-26",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "102 place de l'Église, Berck",
+   "cp": "62420",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "351",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.423606,
+   "lon": 1.585197
+  },
+  {
+   "id": "PC 0065 25 D1123",
+   "date": "2026-02-25",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "48 rue des Camélias, Avion",
+   "cp": "62570",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "841",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.37748,
+   "lon": 2.832603
+  },
+  {
+   "id": "PC 0119 25 D1065",
+   "date": "2026-02-24",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "77 rue de la Vigne, Béthune",
+   "cp": "62880",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "629",
+   "surface_creee": "26",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.516892,
+   "lon": 2.632841
+  },
+  {
+   "id": "PC 0548 25 D1006",
+   "date": "2026-02-23",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "13 rue des Camélias, Marck",
+   "cp": "62710",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "885",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.973926,
+   "lon": 1.940131
+  },
+  {
+   "id": "PC 0498 25 D1021",
+   "date": "2026-02-23",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "12 allée des Tilleuls, Lens",
+   "cp": "62990",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "405",
+   "surface_creee": "43",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.440581,
+   "lon": 2.836761
+  },
+  {
+   "id": "PC 0427 25 D1121",
+   "date": "2026-02-23",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "45 chemin de la Métairie, Hénin-Beaumont",
+   "cp": "62460",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "639",
+   "surface_creee": "13",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.431095,
+   "lon": 2.916986
+  },
+  {
+   "id": "PC 0108 25 D1039",
+   "date": "2026-02-20",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "72 rue des Camélias, Berck",
+   "cp": "62410",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "252",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.436629,
+   "lon": 1.609526
+  },
+  {
+   "id": "PC 0041 25 D1041",
+   "date": "2026-02-20",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "113 rue de la Vigne, Arras",
+   "cp": "62840",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "570",
+   "surface_creee": "27",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.291153,
+   "lon": 2.764933
+  },
+  {
+   "id": "PC 0160 25 D1046",
+   "date": "2026-02-20",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "43 boulevard des Océanides, Boulogne-sur-Mer",
+   "cp": "62530",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "439",
+   "surface_creee": "15",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.76806,
+   "lon": 1.6223
+  },
+  {
+   "id": "PC 0427 25 D1058",
+   "date": "2026-02-20",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "71 route de la Côte, Hénin-Beaumont",
+   "cp": "62710",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "823",
+   "surface_creee": "8",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.442818,
+   "lon": 2.969966
+  },
+  {
+   "id": "PC 0193 25 D1090",
+   "date": "2026-02-20",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "111 route de la Côte, Calais",
+   "cp": "62320",
+   "commune_insee": "62193",
+   "commune": "Calais",
+   "surface_terrain": "873",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.917022,
+   "lon": 1.871767
+  },
+  {
+   "id": "PC 0525 25 D1095",
+   "date": "2026-02-20",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "72 boulevard des Océanides, Longuenesse",
+   "cp": "62010",
+   "commune_insee": "62525",
+   "commune": "Longuenesse",
+   "surface_terrain": "733",
+   "surface_creee": "18",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.739652,
+   "lon": 2.203632
+  },
+  {
+   "id": "PC 0215 25 D1028",
+   "date": "2026-02-19",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "16 rue du Moulin, Carvin",
+   "cp": "62710",
+   "commune_insee": "62215",
+   "commune": "Carvin",
+   "surface_terrain": "769",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.507654,
+   "lon": 2.949859
+  },
+  {
+   "id": "PC 0065 25 D1033",
+   "date": "2026-02-15",
+   "nature": "Construction d'une maison individuelle",
+   "metiers": [
+    "maison_neuve"
+   ],
+   "adresse": "89 impasse des Mésanges, Avion",
+   "cp": "62990",
+   "commune_insee": "62065",
+   "commune": "Avion",
+   "surface_terrain": "810",
+   "surface_creee": "117",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.382129,
+   "lon": 2.837118
+  },
+  {
+   "id": "PC 0318 25 D1073",
+   "date": "2026-02-15",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "42 place de l'Église, Étaples",
+   "cp": "62360",
+   "commune_insee": "62318",
+   "commune": "Étaples",
+   "surface_terrain": "335",
+   "surface_creee": "38",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "452910243",
+   "lat": 50.519942,
+   "lon": 1.673797
+  },
+  {
+   "id": "PC 0119 25 D1051",
+   "date": "2026-02-14",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "26 route de la Côte, Béthune",
+   "cp": "62220",
+   "commune_insee": "62119",
+   "commune": "Béthune",
+   "surface_terrain": "619",
+   "surface_creee": "10",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.554479,
+   "lon": 2.675405
+  },
+  {
+   "id": "PC 0510 25 D1075",
+   "date": "2026-02-14",
+   "nature": "Surélévation de la toiture et création de combles habitables",
+   "metiers": [
+    "extension",
+    "toiture"
+   ],
+   "adresse": "106 boulevard des Océanides, Liévin",
+   "cp": "62110",
+   "commune_insee": "62510",
+   "commune": "Liévin",
+   "surface_terrain": "668",
+   "surface_creee": "28",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.444804,
+   "lon": 2.741271
+  },
+  {
+   "id": "PC 0758 25 D1008",
+   "date": "2026-02-09",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "108 rue des Camélias, Saint-Martin-Boulogne",
+   "cp": "62610",
+   "commune_insee": "62758",
+   "commune": "Saint-Martin-Boulogne",
+   "surface_terrain": "777",
+   "surface_creee": "19",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.708663,
+   "lon": 1.635639
+  },
+  {
+   "id": "PC 0643 25 D1052",
+   "date": "2026-02-09",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "1 rue de la Vigne, Outreau",
+   "cp": "62050",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "418",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.70812,
+   "lon": 1.622236
+  },
+  {
+   "id": "PC 0041 25 D1083",
+   "date": "2026-02-09",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "99 boulevard des Océanides, Arras",
+   "cp": "62170",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "325",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.300758,
+   "lon": 2.812618
+  },
+  {
+   "id": "PC 0548 25 D1086",
+   "date": "2026-02-09",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "37 rue du Moulin, Marck",
+   "cp": "62310",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "586",
+   "surface_creee": "12",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.963141,
+   "lon": 1.96821
+  },
+  {
+   "id": "PC 0525 25 D1019",
+   "date": "2026-02-08",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "117 rue des Ajoncs, Longuenesse",
+   "cp": "62460",
+   "commune_insee": "62525",
+   "commune": "Longuenesse",
+   "surface_terrain": "319",
+   "surface_creee": "20",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.727629,
+   "lon": 2.259363
+  },
+  {
+   "id": "PC 0178 25 D1110",
+   "date": "2026-02-08",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "12 allée des Tilleuls, Bruay-la-Buissière",
+   "cp": "62660",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "736",
+   "surface_creee": "0",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "444549616",
+   "lat": 50.495966,
+   "lon": 2.551195
+  },
+  {
+   "id": "PC 0498 25 D1137",
+   "date": "2026-02-06",
+   "nature": "Construction d'une véranda",
+   "metiers": [
+    "veranda_terrasse"
+   ],
+   "adresse": "74 rue du Moulin, Lens",
+   "cp": "62480",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "847",
+   "surface_creee": "14",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.443079,
+   "lon": 2.829743
+  },
+  {
+   "id": "PC 0643 25 D1014",
+   "date": "2026-02-04",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "71 route de la Côte, Outreau",
+   "cp": "62850",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "810",
+   "surface_creee": "40",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.712274,
+   "lon": 1.587511
+  },
+  {
+   "id": "PC 0108 25 D1049",
+   "date": "2026-02-04",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "53 rue des Ajoncs, Berck",
+   "cp": "62780",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "289",
+   "surface_creee": "35",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "493800431",
+   "lat": 50.401624,
+   "lon": 1.604616
+  },
+  {
+   "id": "PC 0178 25 D1080",
+   "date": "2026-02-04",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "25 allée des Tilleuls, Bruay-la-Buissière",
+   "cp": "62280",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "871",
+   "surface_creee": "38",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.470365,
+   "lon": 2.564431
+  },
+  {
+   "id": "PC 0427 25 D1098",
+   "date": "2026-02-04",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "95 avenue de la Libération, Hénin-Beaumont",
+   "cp": "62900",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "927",
+   "surface_creee": "8",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "395653947",
+   "lat": 50.368864,
+   "lon": 2.983854
+  },
+  {
+   "id": "PC 0160 25 D1103",
+   "date": "2026-02-03",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "117 rue des Frères Lumière, Boulogne-sur-Mer",
+   "cp": "62060",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "300",
+   "surface_creee": "30",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.731884,
+   "lon": 1.626934
+  },
+  {
+   "id": "PC 0178 25 D1109",
+   "date": "2026-02-03",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "72 rue de la Vigne, Bruay-la-Buissière",
+   "cp": "62940",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "201",
+   "surface_creee": "23",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "305194357",
+   "lat": 50.481144,
+   "lon": 2.527225
+  },
+  {
+   "id": "PC 0160 25 D1133",
+   "date": "2026-02-03",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "107 rue de la Vigne, Boulogne-sur-Mer",
+   "cp": "62630",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "441",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.726139,
+   "lon": 1.653828
+  },
+  {
+   "id": "PC 0758 25 D1094",
+   "date": "2026-01-30",
+   "nature": "Réfection complète de la toiture",
+   "metiers": [
+    "toiture"
+   ],
+   "adresse": "81 route de la Côte, Saint-Martin-Boulogne",
+   "cp": "62100",
+   "commune_insee": "62758",
+   "commune": "Saint-Martin-Boulogne",
+   "surface_terrain": "330",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.719196,
+   "lon": 1.628032
+  },
+  {
+   "id": "PC 0765 25 D1076",
+   "date": "2026-01-29",
+   "nature": "Ravalement de façade",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "48 rue des Ajoncs, Saint-Omer",
+   "cp": "62190",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "679",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.764478,
+   "lon": 2.262096
+  },
+  {
+   "id": "PC 0108 25 D1152",
+   "date": "2026-01-28",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "63 rue des Camélias, Berck",
+   "cp": "62110",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "611",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.438909,
+   "lon": 1.564285
+  },
+  {
+   "id": "PC 0427 25 D1066",
+   "date": "2026-01-26",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "68 rue des Frères Lumière, Hénin-Beaumont",
+   "cp": "62450",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "310",
+   "surface_creee": "14",
+   "demandeur_pro": "SCCV LE CLOS DES CHENES",
+   "siren": "829613719",
+   "lat": 50.418042,
+   "lon": 2.989362
+  },
+  {
+   "id": "PC 0160 25 D1088",
+   "date": "2026-01-25",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "67 rue des Frères Lumière, Boulogne-sur-Mer",
+   "cp": "62600",
+   "commune_insee": "62160",
+   "commune": "Boulogne-sur-Mer",
+   "surface_terrain": "886",
+   "surface_creee": "32",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.74977,
+   "lon": 1.606929
+  },
+  {
+   "id": "PC 0427 25 D1112",
+   "date": "2026-01-24",
+   "nature": "Édification d'une clôture et d'un portail",
+   "metiers": [
+    "cloture_portail"
+   ],
+   "adresse": "42 rue des Camélias, Hénin-Beaumont",
+   "cp": "62800",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "267",
+   "surface_creee": "0",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "841454477",
+   "lat": 50.385759,
+   "lon": 2.936007
+  },
+  {
+   "id": "PC 0215 25 D1145",
+   "date": "2026-01-24",
+   "nature": "Construction d'une piscine enterrée",
+   "metiers": [
+    "piscine"
+   ],
+   "adresse": "86 rue de la Vigne, Carvin",
+   "cp": "62290",
+   "commune_insee": "62215",
+   "commune": "Carvin",
+   "surface_terrain": "649",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.506509,
+   "lon": 2.954561
+  },
+  {
+   "id": "PC 0498 25 D1055",
+   "date": "2026-01-23",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "87 place de l'Église, Lens",
+   "cp": "62090",
+   "commune_insee": "62498",
+   "commune": "Lens",
+   "surface_terrain": "673",
+   "surface_creee": "49",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.420859,
+   "lon": 2.856551
+  },
+  {
+   "id": "PC 0548 25 D1054",
+   "date": "2026-01-22",
+   "nature": "Rénovation avec changement des menuiseries et isolation par l'extérieur",
+   "metiers": [
+    "renovation"
+   ],
+   "adresse": "38 rue des Ajoncs, Marck",
+   "cp": "62900",
+   "commune_insee": "62548",
+   "commune": "Marck",
+   "surface_terrain": "699",
+   "surface_creee": "0",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "317866103",
+   "lat": 50.962834,
+   "lon": 1.93213
+  },
+  {
+   "id": "PC 0643 25 D1089",
+   "date": "2026-01-20",
+   "nature": "Construction d'un abri de jardin",
+   "metiers": [
+    "abri_annexe"
+   ],
+   "adresse": "44 rue du Moulin, Outreau",
+   "cp": "62170",
+   "commune_insee": "62643",
+   "commune": "Outreau",
+   "surface_terrain": "447",
+   "surface_creee": "11",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.685924,
+   "lon": 1.531359
+  },
+  {
+   "id": "PC 0178 25 D1007",
+   "date": "2026-01-19",
+   "nature": "Réfection complète de la toiture",
+   "metiers": [
+    "toiture"
+   ],
+   "adresse": "53 avenue de la Libération, Bruay-la-Buissière",
+   "cp": "62440",
+   "commune_insee": "62178",
+   "commune": "Bruay-la-Buissière",
+   "surface_terrain": "323",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.539308,
+   "lon": 2.544409
+  },
+  {
+   "id": "PC 0108 25 D1153",
+   "date": "2026-01-19",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "18 allée des Tilleuls, Berck",
+   "cp": "62700",
+   "commune_insee": "62108",
+   "commune": "Berck",
+   "surface_terrain": "822",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.40043,
+   "lon": 1.611502
+  },
+  {
+   "id": "PC 0193 25 D1031",
+   "date": "2026-01-18",
+   "nature": "Réfection complète de la toiture",
+   "metiers": [
+    "toiture"
+   ],
+   "adresse": "111 route de la Côte, Calais",
+   "cp": "62240",
+   "commune_insee": "62193",
+   "commune": "Calais",
+   "surface_terrain": "684",
+   "surface_creee": "0",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.96375,
+   "lon": 1.873763
+  },
+  {
+   "id": "PC 0041 25 D1084",
+   "date": "2026-01-16",
+   "nature": "Installation de panneaux photovoltaïques en toiture",
+   "metiers": [
+    "solaire"
+   ],
+   "adresse": "47 rue du Moulin, Arras",
+   "cp": "62580",
+   "commune_insee": "62041",
+   "commune": "Arras",
+   "surface_terrain": "261",
+   "surface_creee": "0",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "685313329",
+   "lat": 50.262518,
+   "lon": 2.747135
+  },
+  {
+   "id": "PC 0427 25 D1117",
+   "date": "2026-01-15",
+   "nature": "Construction d'une piscine et d'un pool house",
+   "metiers": [
+    "piscine",
+    "abri_annexe"
+   ],
+   "adresse": "103 rue de la Vigne, Hénin-Beaumont",
+   "cp": "62810",
+   "commune_insee": "62427",
+   "commune": "Hénin-Beaumont",
+   "surface_terrain": "351",
+   "surface_creee": "14",
+   "demandeur_pro": "MAISONS OCEA",
+   "siren": "324187820",
+   "lat": 50.41715,
+   "lon": 2.974144
+  },
+  {
+   "id": "PC 0193 25 D1011",
+   "date": "2026-01-14",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "40 avenue de la Libération, Calais",
+   "cp": "62780",
+   "commune_insee": "62193",
+   "commune": "Calais",
+   "surface_terrain": "460",
+   "surface_creee": "34",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "613635359",
+   "lat": 50.933141,
+   "lon": 1.881215
+  },
+  {
+   "id": "PC 0893 25 D1085",
+   "date": "2026-01-14",
+   "nature": "Extension d'une habitation existante",
+   "metiers": [
+    "extension"
+   ],
+   "adresse": "87 route de la Côte, Wimereux",
+   "cp": "62180",
+   "commune_insee": "62893",
+   "commune": "Wimereux",
+   "surface_terrain": "792",
+   "surface_creee": "30",
+   "demandeur_pro": "SCI LES DUNES",
+   "siren": "646110873",
+   "lat": 50.777295,
+   "lon": 1.613371
+  },
+  {
+   "id": "PC 0765 25 D1118",
+   "date": "2026-01-14",
+   "nature": "Construction d'un garage accolé",
+   "metiers": [
+    "garage_carport"
+   ],
+   "adresse": "60 rue du Moulin, Saint-Omer",
+   "cp": "62320",
+   "commune_insee": "62765",
+   "commune": "Saint-Omer",
+   "surface_terrain": "517",
+   "surface_creee": "14",
+   "demandeur_pro": null,
+   "siren": null,
+   "lat": 50.778048,
+   "lon": 2.241847
+  }
+ ]
+}
