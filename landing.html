@@ -151,9 +151,8 @@
 <section id="inscription"><div class="wrap">
   <h2>Accès prioritaire — Pas-de-Calais</h2>
   <p class="lead-p">Laissez votre email : vous serez prévenu au lancement et bénéficierez du mois offert. Pas de spam, promis.</p>
-  <!-- ⚙️ CONFIGURATION : créez un formulaire gratuit sur formspree.io et remplacez VOTRE_ID ci-dessous.
-       Alternative sans compte : remplacez tout le <form> par un lien vers un formulaire Tally/Google Forms. -->
-  <form action="https://formspree.io/f/VOTRE_ID" method="POST" id="waitlist">
+  <!-- Formulaire branché sur Google Sheets via Apps Script (compte Thomas) -->
+  <form action="https://script.google.com/macros/s/AKfycbzP6ZB3f8DlUMdKpghYlZOlaHrpQiFNd0Xi7WB9Dq4iNqd6oQ3rGpyCT9XdGCDxNBks/exec" method="POST" id="waitlist">
     <input type="text" name="entreprise" placeholder="Nom de votre entreprise" required>
     <select name="metier" required>
       <option value="" disabled selected>Votre métier principal</option>
@@ -191,21 +190,21 @@
 Mentions légales et CGV disponibles au lancement</footer>
 
 <script>
-// Affiche le message de remerciement sans quitter la page (fonctionne avec Formspree en AJAX)
+// Envoi vers Google Sheets (Apps Script) sans quitter la page.
+// mode:'no-cors' : Apps Script ne renvoie pas d'en-têtes CORS, la réponse est
+// opaque mais la requête part bien — on affiche donc le merci directement.
 document.getElementById('waitlist').addEventListener('submit', async function(e){
-  const action = this.getAttribute('action');
-  if (action.includes('VOTRE_ID')) { // formulaire pas encore configuré : on simule pour la démo
-    e.preventDefault();
+  e.preventDefault();
+  const btn = this.querySelector('button[type=submit]');
+  btn.disabled = true; btn.textContent = 'Envoi en cours…';
+  try{
+    await fetch(this.getAttribute('action'), {method:'POST', mode:'no-cors', body:new FormData(this)});
     this.style.display='none';
     document.getElementById('merci').style.display='block';
-    return;
+  }catch(_){
+    btn.disabled = false; btn.textContent = 'Réserver mon accès (1 mois offert)';
+    alert("Oups, l'envoi a échoué. Réessayez ou écrivez-nous : bonjour@permislocal.fr");
   }
-  e.preventDefault();
-  try{
-    const r = await fetch(action, {method:'POST', body:new FormData(this), headers:{'Accept':'application/json'}});
-    if(r.ok){ this.style.display='none'; document.getElementById('merci').style.display='block'; }
-    else{ this.submit(); }
-  }catch(_){ this.submit(); }
 });
 </script>
 </body>
