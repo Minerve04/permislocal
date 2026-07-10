@@ -87,16 +87,16 @@
 
 <nav><div class="wrap">
   <div class="logo"><svg width="30" height="30" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="14" fill="#f5a623" opacity="0.12"/><g fill="none" stroke="#f5a623" stroke-linecap="round"><path d="M20 34 A12 12 0 0 1 32 46" stroke-width="5.5"/><path d="M20 24 A22 22 0 0 1 42 46" stroke-width="5.5"/><path d="M20 14 A32 32 0 0 1 52 46" stroke-width="5.5"/></g><circle cx="20" cy="46" r="5" fill="#f5a623"/></svg><div>Chantier<span>Signal</span></div></div>
-  <a class="cta" href="#inscription">Accès prioritaire</a>
+  <a class="cta" href="#inscription">Essai gratuit 7 jours</a>
 </div></nav>
 
 <div class="hero"><div class="wrap">
-  <div class="badge">🚧 Bientôt disponible dans le Pas-de-Calais (62)</div>
+  <div class="badge">🚧 Disponible dans le Pas-de-Calais (62)</div>
   <h1>Chaque semaine, les nouveaux permis de construire du 62, <em>filtrés pour votre métier</em></h1>
   <p class="sub">Piscine autorisée à Berck. Extension à Arras. Réfection de toiture au Touquet.
   Pendant que vos concurrents attendent le bouche-à-oreille, vous recevez l'adresse des chantiers qui démarrent — avant tout le monde.</p>
-  <a class="btn" href="#inscription">Je veux les chantiers de mon secteur →</a>
-  <div class="under">Sans engagement · Les 50 premiers inscrits : 1 mois offert</div>
+  <a class="btn" href="#inscription">Commencer mes 7 jours gratuits →</a>
+  <div class="under">7 jours gratuits · Sans carte bancaire · Sans engagement</div>
 </div></div>
 
 <div class="strip"><div class="wrap">
@@ -139,20 +139,21 @@
       <div class="price">59 €<small> /mois</small></div>
     </div>
     <ul>
+      <li><b>7 jours d'essai gratuit — sans carte bancaire</b></li>
       <li>Toutes les autorisations de votre métier dans votre rayon</li>
       <li>Alerte email hebdomadaire + accès à la carte interactive</li>
       <li>Adresse du projet, nature des travaux, surfaces</li>
       <li>SIREN des porteurs professionnels (promoteurs, SCI)</li>
       <li>Sans engagement, résiliable en 1 clic</li>
     </ul>
-    <div class="foot"><a class="btn" href="#inscription">Rejoindre la liste d'attente</a></div>
+    <div class="foot"><a class="btn" href="#inscription">Commencer gratuitement</a></div>
   </div>
-  <p class="launch-note">Lancement dès 50 artisans inscrits dans le département — les inscrits de la liste d'attente ont un mois offert.</p>
+  <p class="launch-note">Aucune carte bancaire demandée. Si vous ne continuez pas, l'accès s'arrête simplement au bout de 7 jours — rien à résilier.</p>
 </div></section>
 
 <section id="inscription"><div class="wrap">
-  <h2>Accès prioritaire — Pas-de-Calais</h2>
-  <p class="lead-p">Laissez votre email : vous serez prévenu au lancement et bénéficierez du mois offert. Pas de spam, promis.</p>
+  <h2>Commencez vos 7 jours gratuits</h2>
+  <p class="lead-p">Inscrivez-vous : vous recevez immédiatement par email votre lien d'accès personnel aux chantiers du Pas-de-Calais. Sans carte bancaire. Pas de spam, promis.</p>
   <!-- Formulaire branché sur Google Sheets via Apps Script (compte Thomas) -->
   <form action="https://script.google.com/macros/s/AKfycbzP6ZB3f8DlUMdKpghYlZOlaHrpQiFNd0Xi7WB9Dq4iNqd6oQ3rGpyCT9XdGCDxNBks/exec" method="POST" id="waitlist">
     <input type="text" name="entreprise" placeholder="Nom de votre entreprise" required>
@@ -166,15 +167,17 @@
     <input type="text" name="secteur" placeholder="Votre ville + rayon d'intervention (ex : Arras, 40 km)" required>
     <input type="email" name="email" placeholder="Votre email" required>
     <input type="tel" name="telephone" placeholder="Téléphone (facultatif)">
-    <button class="btn" type="submit">Réserver mon accès (1 mois offert)</button>
+    <button class="btn" type="submit">Commencer mes 7 jours gratuits</button>
   </form>
-  <div id="merci">✅ Merci ! Vous êtes sur la liste. Nous revenons vers vous très vite.</div>
+  <div id="merci">✅ C'est parti ! Vérifiez votre boîte mail : votre lien d'accès personnel vient de vous être envoyé (pensez à regarder les spams).</div>
   <p class="rgpd">Vos coordonnées servent uniquement à vous prévenir du lancement. Suppression sur simple demande — RGPD respecté.</p>
 </div></section>
 
 <section><div class="wrap">
   <h2>Questions fréquentes</h2>
   <div class="faq">
+    <details><summary>Comment fonctionne l'essai gratuit ?</summary>
+      <p>Vous vous inscrivez, vous recevez un lien d'accès personnel par email, et vous avez 7 jours d'utilisation complète — sans carte bancaire. Au bout de 7 jours, l'accès s'arrête automatiquement, sauf si vous choisissez de vous abonner (59 €/mois). Rien à résilier, aucun prélèvement surprise.</p></details>
     <details><summary>D'où viennent les données ?</summary>
       <p>Des autorisations d'urbanisme officielles (base SITADEL, ministère de la Transition écologique), publiées en open data. Rien de scrapé, rien d'illégal : des données publiques, mises en forme pour votre métier.</p></details>
     <details><summary>Ai-je le nom et le téléphone du propriétaire ?</summary>
@@ -204,7 +207,7 @@ document.getElementById('waitlist').addEventListener('submit', async function(e)
     this.style.display='none';
     document.getElementById('merci').style.display='block';
   }catch(_){
-    btn.disabled = false; btn.textContent = 'Réserver mon accès (1 mois offert)';
+    btn.disabled = false; btn.textContent = 'Commencer mes 7 jours gratuits';
     alert("Oups, l'envoi a échoué. Réessayez ou écrivez-nous : bonjour@chantiersignal.fr");
   }
 });
