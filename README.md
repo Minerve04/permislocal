@@ -1,4 +1,4 @@
-# PermisLocal — prototype
+# ChantierSignal — prototype
 
 **Les chantiers de demain, détectés aujourd'hui.** Transforme les autorisations
 d'urbanisme (open data SITADEL) en opportunités commerciales géolocalisées pour
@@ -20,11 +20,11 @@ python3 pipeline_sitadel.py --dept 44 --mois 6
 # puis rouvrir index.html
 ```
 
-Le script résout automatiquement la dernière ressource publiée sur
-data.gouv.fr (jeux "liste des autorisations d'urbanisme" du SDES), tolère les
-variantes de colonnes selon les millésimes, et géocode via l'API Adresse
-(gratuite, sans clé). Si le nom du jeu de données a changé, ajuste
-`DATASET_SLUGS` en tête de script.
+Le script découvre automatiquement le dernier millésime publié sur la
+plateforme DIDO du ministère (jeu "Liste des permis de construire et autres
+autorisations d'urbanisme"), tolère les variantes de colonnes, et géocode via
+l'API Adresse (gratuite, sans clé). Un workflow GitHub Actions
+(`.github/workflows/update-leads.yml`) relance tout ça le 5 de chaque mois.
 
 ## Points à connaître
 

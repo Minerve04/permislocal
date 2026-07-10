@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PermisLocal — Trouvez vos prochains chantiers dans le Pas-de-Calais</title>
+<title>ChantierSignal — Trouvez vos prochains chantiers dans le Pas-de-Calais</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="description" content="Chaque semaine, recevez les nouveaux permis de construire et déclarations de travaux du Pas-de-Calais, filtrés pour votre métier. Piscines, toitures, extensions : soyez le premier artisan sur le chantier.">
 <style>
   :root{
@@ -17,8 +18,9 @@
 
   nav{background:var(--navy);padding:14px 0}
   nav .wrap{display:flex;align-items:center;justify-content:space-between}
-  .logo{font-size:21px;font-weight:800;color:#fff;letter-spacing:-.5px}
+  .logo{font-size:21px;font-weight:800;color:#fff;letter-spacing:-.5px;display:flex;align-items:center;gap:9px}
   .logo span{color:var(--amber)}
+  .logo svg{flex-shrink:0}
   nav a.cta{background:var(--amber);color:var(--navy);font-weight:700;font-size:14px;padding:9px 18px;border-radius:8px;text-decoration:none}
 
   .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;padding:72px 0 84px;text-align:center}
@@ -84,7 +86,7 @@
 <body>
 
 <nav><div class="wrap">
-  <div class="logo">Permis<span>Local</span></div>
+  <div class="logo"><svg width="30" height="30" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="14" fill="#f5a623" opacity="0.12"/><g fill="none" stroke="#f5a623" stroke-linecap="round"><path d="M20 34 A12 12 0 0 1 32 46" stroke-width="5.5"/><path d="M20 24 A22 22 0 0 1 42 46" stroke-width="5.5"/><path d="M20 14 A32 32 0 0 1 52 46" stroke-width="5.5"/></g><circle cx="20" cy="46" r="5" fill="#f5a623"/></svg><div>Chantier<span>Signal</span></div></div>
   <a class="cta" href="#inscription">Accès prioritaire</a>
 </div></nav>
 
@@ -186,7 +188,7 @@
   </div>
 </div></section>
 
-<footer>PermisLocal · Données : SITADEL (open data) · Contact : bonjour@permislocal.fr<br>
+<footer>ChantierSignal · Données : SITADEL (open data) · Contact : bonjour@chantiersignal.fr<br>
 Mentions légales et CGV disponibles au lancement</footer>
 
 <script>
@@ -203,7 +205,7 @@ document.getElementById('waitlist').addEventListener('submit', async function(e)
     document.getElementById('merci').style.display='block';
   }catch(_){
     btn.disabled = false; btn.textContent = 'Réserver mon accès (1 mois offert)';
-    alert("Oups, l'envoi a échoué. Réessayez ou écrivez-nous : bonjour@permislocal.fr");
+    alert("Oups, l'envoi a échoué. Réessayez ou écrivez-nous : bonjour@chantiersignal.fr");
   }
 });
 </script>

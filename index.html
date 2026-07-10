@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PermisLocal — Les chantiers de demain, détectés aujourd'hui</title>
+<title>ChantierSignal — Les chantiers de demain, détectés aujourd'hui</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -16,7 +17,7 @@
   body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);height:100vh;display:flex;flex-direction:column;overflow:hidden}
 
   header{background:var(--navy);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-  .logo{font-size:20px;font-weight:800;letter-spacing:-.5px}
+  .logo{font-size:20px;font-weight:800;letter-spacing:-.5px;display:flex;align-items:center;gap:8px}
   .logo span{color:var(--amber)}
   .tagline{font-size:12.5px;opacity:.75}
   .demo-badge{margin-left:auto;background:var(--amber);color:var(--navy);font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px}
@@ -72,7 +73,7 @@
 
 <header>
   <div>
-    <div class="logo">Permis<span>Local</span></div>
+    <div class="logo"><svg width="26" height="26" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="14" fill="#f5a623" opacity="0.12"/><g fill="none" stroke="#f5a623" stroke-linecap="round"><path d="M20 34 A12 12 0 0 1 32 46" stroke-width="5.5"/><path d="M20 24 A22 22 0 0 1 42 46" stroke-width="5.5"/><path d="M20 14 A32 32 0 0 1 52 46" stroke-width="5.5"/></g><circle cx="20" cy="46" r="5" fill="#f5a623"/></svg><div>Chantier<span>Signal</span></div></div>
     <div class="tagline" id="tagline">Les chantiers de demain, détectés aujourd'hui</div>
   </div>
   <div class="stats">
@@ -103,7 +104,7 @@
   <div id="map"></div>
 </div>
 
-<footer>Source : SITADEL (open data, SDES / data.gouv.fr) · Géocodage : API Adresse · <b>PermisLocal</b> — prototype</footer>
+<footer>Source : SITADEL (open data, SDES) · Géocodage : API Adresse · <b>ChantierSignal</b> — prototype</footer>
 
 <script src="leads.js"></script>
 <script>
