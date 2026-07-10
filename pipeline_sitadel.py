@@ -27,34 +27,41 @@ import zipfile
 from datetime import date, datetime, timedelta
 
 # ---------------------------------------------------------------------------
-# 1. RÉSOLUTION DE LA SOURCE (API data.gouv.fr)
+# 1. RÉSOLUTION DE LA SOURCE (API DIDO du SDES / ministère)
 # ---------------------------------------------------------------------------
-# Jeux de données SDES/SITADEL publiés sur data.gouv.fr. Les slugs sont
-# stables ; les URLs de fichiers changent à chaque millésime, donc on les
-# résout dynamiquement via l'API.
-DATASET_SLUGS = [
-    # PC/DP créant des logements (le plus utile pour les artisans)
-    "liste-des-autorisations-durbanisme-creees-logements",
-    # locaux non résidentiels (utile pour le B2B : hangars, commerces...)
-    "liste-des-autorisations-durbanisme-creees-locaux-non-residentiels",
-]
-DATA_GOUV_API = "https://www.data.gouv.fr/api/1/datasets/{slug}/"
+# Le jeu "Liste des permis de construire et autres autorisations d'urbanisme"
+# est publié sur la plateforme DIDO. On découvre dynamiquement le dataset,
+# ses fichiers (logements, locaux) et le dernier millésime.
+DIDO_API = "https://data.statistiques.developpement-durable.gouv.fr/dido/api/v1"
+DATASET_TITLE_RE = r"permis de construire et autres autorisations"
+DATAFILE_TITLE_RE = r"logements|locaux non r"
 BAN_BULK_URL = "https://api-adresse.data.gouv.fr/search/csv/"
 
 
-def resolve_latest_resources(slug):
-    """Retourne les URLs CSV/ZIP du dataset, la plus récente d'abord."""
+def resolve_dido_csv_urls():
+    """Retourne [(titre, url_csv)] pour les fichiers pertinents, dernier millésime."""
     import requests
-    r = requests.get(DATA_GOUV_API.format(slug=slug), timeout=60)
+    r = requests.get(f"{DIDO_API}/datasets", params={"pageSize": "all"}, timeout=120)
     r.raise_for_status()
-    resources = r.json().get("resources", [])
-    keep = [
-        res for res in resources
-        if res.get("format", "").lower() in ("csv", "zip")
-        or res.get("url", "").lower().endswith((".csv", ".zip"))
-    ]
-    keep.sort(key=lambda res: res.get("last_modified") or "", reverse=True)
-    return [(res["title"], res["url"]) for res in keep]
+    datasets = r.json()
+    datasets = datasets.get("data", datasets)
+    ds = next((d for d in datasets
+               if re.search(DATASET_TITLE_RE, d.get("title", ""), re.I)), None)
+    if not ds:
+        sys.exit("Dataset SITADEL introuvable sur DIDO — vérifier DATASET_TITLE_RE.")
+    out = []
+    for f in ds.get("datafiles", []):
+        if not re.search(DATAFILE_TITLE_RE, f.get("title", ""), re.I):
+            continue
+        mills = f.get("millesimes") or []
+        if not mills:
+            continue
+        last = mills[-1]
+        m = last.get("millesime") if isinstance(last, dict) else last
+        url = (f"{DIDO_API}/datafiles/{f['rid']}/csv?millesime={m}"
+               "&withColumnName=true&withColumnDescription=false&withColumnUnit=false")
+        out.append((f["title"], url))
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -114,27 +121,31 @@ def run_real(dept, months, out_path):
     import pandas as pd
     import requests
 
+    dept2 = str(dept).zfill(2)
     frames = []
-    for slug in DATASET_SLUGS:
-        try:
-            resources = resolve_latest_resources(slug)
-        except Exception as e:
-            print(f"[!] API data.gouv indisponible pour {slug}: {e}")
-            continue
-        if not resources:
-            print(f"[!] Aucune ressource CSV trouvée pour {slug}")
-            continue
-        title, url = resources[0]
-        print(f"[+] Téléchargement : {title}\n    {url}")
-        raw = requests.get(url, timeout=600).content
-        if url.lower().endswith(".zip") or raw[:2] == b"PK":
-            zf = zipfile.ZipFile(io.BytesIO(raw))
-            name = next(n for n in zf.namelist() if n.lower().endswith(".csv"))
-            raw = zf.read(name)
-        df = pd.read_csv(io.BytesIO(raw), sep=None, engine="python",
-                         dtype=str, encoding_errors="replace", on_bad_lines="skip")
-        print(f"    {len(df):,} lignes, colonnes: {list(df.columns)[:12]}...")
-        frames.append(df)
+    for title, url in resolve_dido_csv_urls():
+        print(f"[+] Téléchargement en flux : {title}")
+        with requests.get(url, stream=True, timeout=1800) as resp:
+            resp.raise_for_status()
+            resp.raw.decode_content = True
+            # détection du séparateur sur la première ligne
+            first = resp.raw.readline()
+            sep = ";" if first.count(b";") >= first.count(b",") else ","
+            stream = io.BytesIO(first + resp.raw.read())
+        kept = []
+        for chunk in pd.read_csv(stream, sep=sep, dtype=str, chunksize=200_000,
+                                 encoding_errors="replace", on_bad_lines="skip"):
+            c_dep = find_col(chunk.columns, "DEP_CODE", "DEP")
+            c_comm = find_col(chunk.columns, "COMM", "code_commune")
+            if c_dep:
+                kept.append(chunk[chunk[c_dep].astype(str).str.zfill(2) == dept2])
+            elif c_comm:
+                kept.append(chunk[chunk[c_comm].astype(str).str.startswith(dept2)])
+        if kept:
+            df = pd.concat(kept, ignore_index=True)
+            print(f"    → {len(df):,} lignes pour le dept {dept2}, "
+                  f"colonnes: {list(df.columns)[:10]}...")
+            frames.append(df)
 
     if not frames:
         sys.exit("Aucune donnée récupérée. Vérifie ta connexion, ou lance --demo.")
@@ -163,14 +174,45 @@ def run_real(dept, months, out_path):
             sel = sel[sel[c_date].astype(str) >= cutoff]
         print(f"    → {len(sel):,} autorisations dept {dept} depuis {cutoff}")
 
+        # indicateurs structurés SITADEL → métiers (plus fiables que le texte)
+        FLAG_COLS = {
+            "piscine": find_col(cols, "I_PISCINE"),
+            "garage_carport": find_col(cols, "I_GARAGE"),
+            "veranda_terrasse": find_col(cols, "I_VERANDA"),
+            "abri_annexe": find_col(cols, "I_ABRI_JARDIN"),
+            "extension": find_col(cols, "I_EXTENSION"),
+            "toiture": find_col(cols, "I_SURELEVATION"),
+        }
+        c_nblgt = find_col(cols, "NB_LGT_TOT_CREES")
+        c_type = find_col(cols, "TYPE_DAU")
+
         for _, row in sel.iterrows():
             adresse = " ".join(str(row[c]) for c in adr_parts
                                if c and str(row.get(c, "")) not in ("nan", "", "None"))
+            nature_txt = str(row.get(c_nat, "")) if c_nat else ""
+            metiers = set(m for m in classify(nature_txt) if m != "autre")
+            for tag, col in FLAG_COLS.items():
+                if col and str(row.get(col, "")).strip().lower() in ("1", "true", "oui", "vrai"):
+                    metiers.add(tag)
+            nb_lgt = 0
+            try:
+                nb_lgt = int(float(row.get(c_nblgt, 0) or 0)) if c_nblgt else 0
+            except (ValueError, TypeError):
+                pass
+            if nb_lgt >= 1 and str(row.get(c_type, "")).upper().startswith("PC"):
+                metiers.add("maison_neuve" if nb_lgt == 1 else "renovation")
+            if not metiers:
+                metiers = {"autre"}
+            if nature_txt in ("", "nan", "None"):
+                extras = [t.replace("_", " ") for t in sorted(metiers) if t != "autre"]
+                nature_txt = (f"{str(row.get(c_type, 'Autorisation'))} — "
+                              + (", ".join(extras) if extras else "projet")
+                              + (f", {nb_lgt} logement(s)" if nb_lgt else ""))
             leads.append({
                 "id": str(row.get(c_num, "")) if c_num else "",
                 "date": str(row.get(c_date, ""))[:10] if c_date else "",
-                "nature": str(row.get(c_nat, "")) if c_nat else "",
-                "metiers": classify(str(row.get(c_nat, "")) if c_nat else ""),
+                "nature": nature_txt,
+                "metiers": sorted(metiers),
                 "adresse": adresse.strip(),
                 "cp": str(row.get(c_cp, "")) if c_cp else "",
                 "commune_insee": str(row.get(c_comm, "")) if c_comm else "",
